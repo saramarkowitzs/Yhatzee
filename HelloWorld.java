@@ -7,7 +7,15 @@ public class HelloWorld
     int d = -8;
     
     public void run() {
-        System.out.println("Hello World!");
+    if (a==5){
+        System.out.println("SUCSESS");
+    }
+    
+    if (b==2){
+        System.out.println("SUCSESS");
+    } else {
+         System.out.println("FALIURE");
+    }
     }
     
     
@@ -17,5 +25,6 @@ public class HelloWorld
         hw.run();
     }
 }
+
 
 

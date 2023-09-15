@@ -7,7 +7,7 @@ public class HelloWorld
     int d = -8;
     
     public void run() {
-        System.out.println("Hello World!");if (a==5){
+    if (a==5){
         System.out.println("SUCSESS");
     }
     
@@ -16,7 +16,12 @@ public class HelloWorld
     } else {
         System.out.println("FALIURE");
         }
+    
+    if (c != 1) {
+        System.out.println("SUCSESS");
     }
+    }
+
 
     public static void main(String[] args)
     {        

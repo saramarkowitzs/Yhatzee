@@ -9,6 +9,8 @@ public class HelloWorld
     public void run() {
     if (a==5){
         System.out.println("SUCSESS");
+    }else{
+        System.out.println("FALIURE");
     }
     
     if (b==2){
@@ -19,7 +21,17 @@ public class HelloWorld
     
     if (c != 1) {
         System.out.println("SUCSESS");
+    } else {
+        System.out.println("FALIURE");
     }
+    
+    if (d==-8 && a==4) {
+        System.out.println("SUCSESS");
+    } else {
+        System.out.println("FALIURE");
+    }
+    
+    
     }
 
 

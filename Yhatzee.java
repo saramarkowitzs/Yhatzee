@@ -6,7 +6,6 @@ public class Yhatzee {
     Die6 die3;
     Die6 die4;
     Die6 die5;
-    Die6 die6;
     Die6[] dice;
     
     public Yhatzee() {
@@ -15,8 +14,7 @@ public class Yhatzee {
         die3 = new Die6();
         die4 = new Die6();
         die5 = new Die6();
-        die6 = new Die6();
-        dice = new Die6[]{die1, die2, die3, die4, die5, die6};
+        dice = new Die6[]{die1, die2, die3, die4, die5};
     }
 
     public void roll() {
@@ -49,7 +47,6 @@ public class Yhatzee {
         return summary.toString();
     }
 
-    @Override
     public String toString() {
         return "Dice values: " + Arrays.toString(Arrays.stream(dice).mapToInt(Die6::getValue).toArray());
     }
